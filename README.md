@@ -1,6 +1,6 @@
 # Make Coding Easy
 
-**This tutorial is for linux (debian based) only <br>
+**This tutorial is for linux (debian based) only. <br>
 If you are a windows user then check this out [Setup VS Code for windows](windows.md)**
 
 # 1. **VS code task config** to make **competitive programming** easy and **programme analysis** ! <br>
@@ -8,16 +8,19 @@ If you are a windows user then check this out [Setup VS Code for windows](window
 [This](/Config-Files/C&C++/Linux/tasks.json) is a **.json** file which will help you to run your **cpp** file with one **click** or **shortcut**.
 
 In this case , you **don't** need to write **input** in the command line or write **fopen** / **close** stuffs , programme will take input from a file **(input.txt)** automatically and give the output in another file **(output.txt)**.
+
 ![Input Output](images/input&output.png)
 
-You can also find the programme **runtime status** which will help you to calculate **execution time** as well as **memory usage** and many more ! ![Time Status](images/time_status.png)
+You can also find the programme **runtime status** which will help you to calculate **execution time** as well as **memory usage** and many more! 
+
+![Time Status](images/time_status.png)
 
 pre-requirements :
 
 - Visual Studio Code
 - gcc/g++
 - time
-  - install time : `sudo apt install time`
+- install time : `sudo apt install time`
 
 ## Let's setup
 
@@ -76,18 +79,19 @@ Note : **You just need to do these things only for the first time of your worksp
     - [Windows File](Config-Files/Python/Windows/tasks.json)
     - [Linux File](Config-Files/Python/Linux/tasks.json)
 
-- Java :
+  - Java :
 
-  - [Windows File](Config-Files/Java/Windows/tasks.json)
-  - [Linux File](Config-Files/Java/Linux/tasks.json)
+    - [Windows File](Config-Files/Java/Windows/tasks.json)
+    - [Linux File](Config-Files/Java/Linux/tasks.json)
 
-- Dart :
+  - Dart :
 
-  - [Windows File](Config-Files/Dart/Windows/tasks.json)
-  - [Linux File](Config-Files/Dart/Linux/tasks.json)
+    - [Windows File](Config-Files/Dart/Windows/tasks.json)
+    - [Linux File](Config-Files/Dart/Linux/tasks.json)
 
-- Go :
-  - [Linux File](Config-Files/go/Linux/tasks.json)
+  - Go :
+    
+    - [Linux File](Config-Files/go/Linux/tasks.json)
 
 **Note :** Here, I have merged all the files which includes tasks.json file for Python, C, C++, Java and Dart for both Windows and Linux! [Here is the Link](/Config-Files/all-in-one/tasks.json)
 
@@ -96,7 +100,9 @@ Note : **You just need to do these things only for the first time of your worksp
 **This one is made for my personal usage, you can add functions as you wish and edit my name and doc.**
 
 - Select User Snippets under **File** (at Left top bar) > **Preferences (Code > Preferences on macOS)**, and then select **cpp.json**
+  
   ![Top Bar](/images/top_bar.png)
+  
 - copy or replace the cpp.json file {[Link](/Snippets/cpp.json)} and save !
 
 ## Usage
