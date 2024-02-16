@@ -48,8 +48,7 @@ Note : **You just need to do these things only for the first time of your worksp
 
   - In Menu bar
 
-    - Click on Terminal (At the left top bar )
-      ![Top Bar](/images/top_bar.png)
+    - Click on Terminal (At the left top bar ) ![Top Bar](/images/top_bar.png)
     - select configure task
     - select create task.json from template (this will create a task.json file in .vscode in your working directory)
     - select other and new task.json file will be created
